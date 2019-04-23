@@ -1,0 +1,157 @@
+html,body,#app{
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.page{
+	background-color: #ccc;
+}
+.routetwo{
+	height: 100%;
+	display: flex;
+}
+.routetwotitle{
+	margin-left: 10px;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	width: 100%;
+}
+.liactive{	
+	background-color: rgb(127,255,170);
+}
+.itemul{
+	display: none;
+	width: 100%;
+}
+.ulshow{
+	display: block;
+}
+.itemlist{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+}
+.itemlist:hover{
+	box-shadow:0px 0px 1px 1px #ccc;
+}
+/*midnav*/
+.midnav-route{
+	width: 280px;
+	height: 100%;
+	background-color: #fff;
+}
+.midnav-content{
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+}
+/*search模块*/
+
+.search{
+	margin-left: 10px;
+	margin-top: 20px;
+	display: flex;
+	width: 90%;
+	height: 36px;
+	border-radius: 18px;
+	border:0;
+	background-color: WhiteSmoke;
+	padding-left: 5%;
+	box-sizing: border-box;
+}
+.search:hover{
+	border:1px solid MediumAquamarine;
+	background-color: #fff;
+}
+.search .icon-sousuo1{
+	line-height: 36px;
+	font-size: 15px;
+	color: #ccc;
+}
+.search-text{
+	margin-left: 10px;
+    width:100%;
+    outline: none;
+    border:0;
+    background-color: rgba(0,0,0,0);
+}
+div .line{
+	width: 90%;
+	height: 1px;
+	background-color: #ccc;
+}
+/*projs*/
+.clklist{
+	width: 100%;
+	margin-top: 20px;
+}
+.ulclk{
+	width: 100%;
+}
+.ulclktop{
+	width: 100%;
+	height:40px;
+	display: flex;
+	padding-left: 20px;
+}
+.ulclktop:hover{
+	box-shadow:0px 0px 1px 1px #ccc;
+}
+.ulclk .icon-triangle-right{
+	display: inline-block;
+    color: #ccc;
+    font-size: 20px; 
+    line-height: 40px;
+    width: 30px;
+}
+.ulclktop-span{
+	line-height: 40px;
+	height: 40px;
+	width:100%;
+	display: inline-block;
+}
+.ulclk .icon_rotate{
+    transform: rotate(40deg); 
+}
+.ulclk .icon_no{
+    display: none;
+}
+.createproject{
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid MediumAquamarine;
+	border-radius: 30px;
+	width:50%;
+	max-height: 70%;
+	overflow-y: auto;
+	position: absolute;
+	top:100px;
+	left:400px;
+}
+.showpeople{
+	width: 60%;
+	max-height: 70%;
+	background-color: #fff;
+	border: 1px solid MediumAquamarine;
+	position: absolute;
+	top:10%;
+	left:20%;
+	overflow-y: scroll;
+}
+.showpeople .checkbox{
+	display: block;
+	height: 30px;
+	border-bottom: 1px solid MediumAquamarine;
+}
+.closeadd{
+	float: right;
+	margin-top: 0px;
+	padding: 0px;
+}
